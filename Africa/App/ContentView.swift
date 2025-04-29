@@ -58,6 +58,9 @@ struct ContentView: View {
 								AnimalListItemView(animal: animal)
 							} // NavigationLink
 						} // ForEach
+						
+						CreditsView()
+							.modifier(CenterModifier())
 					} // List
 					
 				} else {
